@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    lint:
+      run: npx biome lint --fix
+      glob: "*.ts"
